@@ -1,0 +1,35 @@
+1. Caso de teste: Verificar se um técnico é inserido corretamente na tabela "tecnico".
+Saída esperada: O técnico com os valores fornecidos é inserido corretamente na tabela "tecnico".
+-------------------------------------------------------------------------------------------------------------------------------------------
+2. Caso de teste: Verificar se um cliente é inserido corretamente na tabela "cliente".
+Saída esperada: O cliente com os valores fornecidos é inserido corretamente na tabela "cliente".
+-------------------------------------------------------------------------------------------------------------------------------------------
+3. Caso de teste: Verificar se uma relação técnico-cliente é inserida corretamente na tabela "tecnico_cliente".
+Saída esperada: A relação técnico-cliente com os valores fornecidos é inserida corretamente na tabela "tecnico_cliente".
+-------------------------------------------------------------------------------------------------------------------------------------------
+4. Caso de teste: Verificar se é possível inserir um técnico com um ID já existente na tabela "tecnico".
+Saída esperada: Uma mensagem de erro informando que o ID do técnico já existe na tabela "tecnico".
+-------------------------------------------------------------------------------------------------------------------------------------------
+5. Caso de teste: Verificar se é possível inserir um cliente com um ID já existente na tabela "cliente".
+Saída esperada: Uma mensagem de erro informando que o ID do cliente já existe na tabela "cliente".
+-------------------------------------------------------------------------------------------------------------------------------------------
+6. Caso de teste: Verificar se é possível inserir uma relação técnico-cliente com valores inválidos na tabela "tecnico_cliente".
+Saída esperada: Uma mensagem de erro informando que os valores fornecidos para a relação técnico-cliente são inválidos.
+-------------------------------------------------------------------------------------------------------------------------------------------
+7. Caso de teste: Verificar se é possível atualizar o telefone de um técnico na tabela "tecnico".
+Saída esperada: O telefone do técnico com ID 123 é atualizado para "5555-5555" na tabela "tecnico".
+-------------------------------------------------------------------------------------------------------------------------------------------
+8. Caso de teste: Verificar se é possível atualizar o nome de um cliente na tabela "cliente".
+Saída esperada: O nome do cliente com ID 982 é atualizado para "Ana Silva" na tabela "cliente".
+-------------------------------------------------------------------------------------------------------------------------------------------
+9. Caso de teste: Verificar se é possível remover um técnico da tabela "tecnico".
+Saída esperada: O técnico com ID 532 é removido corretamente da tabela "tecnico".
+-------------------------------------------------------------------------------------------------------------------------------------------
+10. Caso de teste: Verificar se é possível remover um cliente da tabela "cliente".
+Saída esperada: O cliente com ID 213 é removido corretamente da tabela "cliente".
+-------------------------------------------------------------------------------------------------------------------------------------------
+11. Caso de teste: Verificar se é possível remover uma relação técnico-cliente da tabela "tecnico_cliente".
+Saída esperada: A relação técnico-cliente com os valores fornecidos é removida corretamente da tabela "tecnico_cliente".
+-------------------------------------------------------------------------------------------------------------------------------------------
+12. Caso de teste: Verificar se é possível consultar todos os técnicos na tabela "tecnico".
+Saída esperada: Uma lista com todos os técnicos cadastrados na tabela "tecnico".
